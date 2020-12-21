@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #67D0FF, #0076FF);
+    padding: 0 !important;
+    margin-top: -25px;
+}
+.navbar-brand
+{
+    padding-left: 20;
+}
+.navbar-nav li
+{
+    padding: 0 60px;
+}
+.navbar-nav li a
+{
+    color: #000000;
+}
+.row
+{
+    padding: 30;
+    margin: 30;
+}
+
+canvas
+{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 5px solid black;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+#error
+{
+    color: red;
+    visibility: hidden;
+}
+button
+{
+    background-color: darkgrey;
+    position: relative;
+    left: 510px;
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 500px;
+}
+input
+{
+    position: relative;
+    left: 510px;
+    display: block;
+    margin: 10px;
+    margin-left: 500px;
+}
